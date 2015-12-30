@@ -12,10 +12,6 @@ var startup = require('./controllers/startup');
 // Database Event to Connect
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
-  console.log('\n--Welcome to Ping Learning--\n');
+  console.log('\n~~ Welcome to Journey ~~\n');
   startup.start();
 });
-
-
-
- 
