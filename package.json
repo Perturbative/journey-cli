@@ -1,0 +1,17 @@
+{
+  "name": "journey-cli",
+  "version": "1.0.0",
+  "description": "A way to track your journey of learning, simply and easily.",
+  "main": "app.js",
+  "repository": "",
+  "author": "Perturbative <shimal.h.98@gmail.com>",
+  "dependencies": {
+    "async": "latest",
+    "express": "latest",
+    "mongoose": "latest",
+    "prettyjson": "^1.1.3",
+    "prompt": "^0.2.14",
+    "socket.io": "latest",
+    "terminal-menu": "^2.1.1"
+  }
+}
